@@ -11,3 +11,15 @@ body {
     width: 100%;
     height: auto;
 }
+
+.car_cards {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.car {
+    margin-top: 25px;
+    order: 3;
+}
