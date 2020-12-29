@@ -22,4 +22,12 @@ body {
 .car {
     margin-top: 25px;
     order: 3;
+    background-image: url(../assets/card_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 5px;
+}
+
+footer {
+    background-color: white;
 }
