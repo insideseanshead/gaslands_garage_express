@@ -39,6 +39,12 @@ body {
     box-shadow: 10px 10px 5px black;
 }
 
+.roster {
+    margin-top: 25px;
+    background-color: burlywood;
+    width: 100%;
+}
+
 footer {
     position: absolute;
     bottom: 0;
