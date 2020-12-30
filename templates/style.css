@@ -5,6 +5,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: black;
+    min-height: 110vh;
+    position:relative;
+    margin:0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -20,7 +24,7 @@ body {
 }
 
 .car_cards {
-    margin-bottom: 25px;
+    padding-bottom: 3rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -36,8 +40,12 @@ body {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     height: 20px;
+    width: 100vw;
     color: white;
     font-size: 12px;
     text-align: center;
+    margin-top: 20px;;
 }
