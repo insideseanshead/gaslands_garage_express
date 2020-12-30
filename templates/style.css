@@ -39,17 +39,38 @@ body {
     box-shadow: 10px 10px 5px black;
 }
 
+.team_container {
+    padding-bottom: 35px;
+}
+
 .roster {
     margin-top: 25px;
     background-color: burlywood;
     width: 100%;
+    border: 2px solid white;
+}
+
+.team_banner {
+    margin: auto;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_btn {
+    height: 40px;
+    margin:auto 0;
+}
+
+.team_name {
+    margin: auto 0; 
 }
 
 footer {
     position: absolute;
     bottom: 0;
     height: 20px;
-    width: 100vw;
+    width: 100%;
     color: white;
     font-size: 12px;
     text-align: center;
