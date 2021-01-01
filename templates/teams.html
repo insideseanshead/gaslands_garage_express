@@ -58,8 +58,6 @@
               <div class="collapse" id="fury_road">
 
                 <div class="car_cards">
-                    
-            
                     <div class="card car bg-warning border-white" style="width: 24rem">
                       <img src="../assets/car_3.jpg" class="card-img-top" alt="Car 3" />
                       <div class="card-body">
@@ -83,22 +81,20 @@
                           <strong></strong>
                         </p>
                       </div>
-                      
-                      
                     </div>
-                   
-                    
                   </div>
                   <!-- End Car Cards -->
+
+                  <!-- Modal Btn -->
                   <div class="center_btn">
-                    <button type="button" class="btn btn-primary add_racer" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-primary add_racer" data-bs-toggle="modal" data-bs-target="#team_one">
                       Add Racer to Team
                     </button>
                   </div>
                   <!-- end center btn -->
 
                   <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal fade" id="team_one" tabindex="-1" aria-labelledby="team_oneLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
                        <div class="modal-header">
@@ -107,23 +103,23 @@
                         </div>
                         <div class="modal-body">
                           <form class="new_racer">
-                            <label for="new_name">Name:</label>
+                            <label for="new_name">Racer Name:</label>
                             <input id="new_name" type="text" placeholder="Name">
-                            <!-- <br> -->
+                            
                             <label for="sponsor_select">Sponsor:</label>
                             <select name="sponsor_select" id="sponsor_select">
                               <option>Slime</option>
                               <option>Michkin</option>
                               <option>Other</option>
                             </select>
-                            <!-- <br> -->
-                            <label for="new_car">Vehicle:</label>
+                            
+                            <label for="new_car">Vehicle Type:</label>
                             <select name="new_car" id="new_car">
                               <option>Car</option>
                               <option>Buggy</option>
                               <option>Pickup</option>
                             </select>
-                            <!-- <br> -->
+                            
                           </form>
                         </div>
                         <div class="modal-footer">
@@ -133,7 +129,9 @@
                       </div>
                     </div>
                   </div>
+                  <!-- end modal -->
               </div>
+              <!-- End Collapse -->
             
         </div>
         <!-- end roster -->
@@ -181,10 +179,53 @@
                   </div>
                   <!-- End Car Cards -->
 
+                  <!-- Modal Btn -->
+                  <div class="center_btn">
+                    <button type="button" class="btn btn-primary add_racer" data-bs-toggle="modal" data-bs-target="#team_two">
+                      Add Racer to Team
+                    </button>
+                  </div>
+                  <!-- end center btn -->
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="team_two" tabindex="-1" aria-labelledby="team_twoLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                       <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Add Racer</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <form class="new_racer">
+                            <label for="new_name">Racer Name:</label>
+                            <input id="new_name" type="text" placeholder="Racer Name">
+                            <!-- <br> -->
+                            <label for="team_select">Sponsor:</label>
+                            <select name="team_select" id="team_select">
+                              <option>Slime</option>
+                              <option>Michkin</option>
+                              <option>Other</option>
+                            </select>
+                            <!-- <br> -->
+                            <label for="new_car">Vehicle Type:</label>
+                            <select name="new_car" id="new_car">
+                              <option>Car</option>
+                              <option>Buggy</option>
+                              <option>Pickup</option>
+                            </select>
+                            <!-- <br> -->
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
               </div>
-            <!-- <div class="banner">
-                <h3>Beagle Boys</h3>
-            </div> -->
+            
         </div>
         <!-- end roster -->
     </div>
