@@ -50,6 +50,7 @@
             <div class="team_banner bg-warning">
             <img class="team_img" src="https://www.placecage.com/100/100" />
             <h3 class="team_name">Fury Road</h3>
+            <h3 class="can_total">Cans: 50</h3>
                 <button class="btn team_btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#fury_road" aria-expanded="false" aria-controls="fury_road">
                   Open Team
                 </button>
@@ -82,16 +83,38 @@
                           <strong></strong>
                         </p>
                       </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
                     </div>
-            
+                   
                     
                   </div>
                   <!-- End Car Cards -->
-
+                  <div class="center_btn">
+                    <button type="button" class="btn btn-primary add_racer" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Add Racer to Team
+                    </button>
+                  </div>
+                  <!-- end center btn -->
               </div>
-            <!-- <div class="banner">
-                <h3>Beagle Boys</h3>
-            </div> -->
+            
         </div>
         <!-- end roster -->
 
@@ -99,6 +122,7 @@
             <div class="team_banner bg-warning">
             <img class="team_img" src="https://www.placecage.com/100/100" />
             <h3 class="team_name">Beagle Boys</h3>
+            <h3 class="can_total">Cans: 50</h3>
                 <button class="btn team_btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#beagle_boys" aria-expanded="false" aria-controls="beagle_boys">
                   Open Team
                 </button>

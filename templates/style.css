@@ -30,6 +30,16 @@ body {
     flex-wrap: wrap;
 }
 
+.center_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_racer {
+    margin-bottom: 20px;    
+}
+
 .car {
     margin-top: 25px;
     order: 3;
@@ -64,6 +74,10 @@ body {
 
 .team_name {
     margin: auto 0; 
+}
+
+.can_total {
+    margin: auto 0;
 }
 
 footer {
