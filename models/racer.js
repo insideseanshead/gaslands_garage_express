@@ -1,6 +1,10 @@
 module.exports = function(sequelize, DataTypes) {
-    const Vehicle = sequelize.define("Vehicle", {
-        vehicle_type: {
+    const Racer = sequelize.define("Racer", {
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
+        class: {
             type: DataTypes.STRING,
             allowNull: false
         },
@@ -12,11 +16,17 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        handling: {
+        weapons: {
+            type: DataTypes.STRING
+        },
+        special_rules: {
+            type: DataTypes.STRING
+        },
+        gear: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        max_gear: {
+        handling: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
@@ -24,18 +34,11 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        build_slots: {
-            type: DataTypes.INTEGER,
-            allowNull: false
-        },
-        special_rules: {
-            type: DataTypes.STRING
-        },
-        cost: {
+        cans: {
             type: DataTypes.INTEGER,
             allowNull: false
         }
     })
 
-    return Vehicle;
+    return Racer;
 }
