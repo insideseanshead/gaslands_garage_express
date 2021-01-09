@@ -6,18 +6,16 @@ const path = require("path");
 const db = require("./models")
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('gaslands_db', 'root', 'password', {
-    host: 'localhost',
-    dialect: 'mysql'
-  });
+// Database
+const dataBase = require('./config/database')
 
-
-
+// Index Route
 app.get('/', (req,res) => res.send('INDEX'))
 
-const PORT = process.env.PORT || 3000;
+// Garage Routes
 
-//Import Routes for controlers
+
+const PORT = process.env.PORT || 3000;
 
 // Sync sequlize models and start app
 db.sequelize.sync({ force: false }).then(function() {
