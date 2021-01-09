@@ -1,0 +1,242 @@
+[
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 1,
+            "vehicle_type": "Drag Racer",
+            "weight": "Lightweight",
+            "hull": 4,
+            "handling": 4,
+            "max_gear": 6,
+            "crew": 1,
+            "build_slots": 2,
+            "special_rules": "Jet Engine",
+            "cost": 5
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 2,
+            "vehicle_type": "Bike",
+            "weight": "Lightweight",
+            "hull": 4,
+            "handling": 5,
+            "max_gear": 6,
+            "crew": 1,
+            "build_slots": 1,
+            "special_rules": "Full Throttle, Pivot",
+            "cost": 5
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 3,
+            "vehicle_type": "Buggy",
+            "weight": "Lightweight",
+            "hull": 6,
+            "handling": 4,
+            "max_gear": 6,
+            "crew": 2,
+            "build_slots": 2,
+            "special_rules": "Roll Cage",
+            "cost": 6
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 4,
+            "vehicle_type": "Bike with Sidecar",
+            "weight": "Lightweight",
+            "hull": 4,
+            "handling": 5,
+            "max_gear": 6,
+            "crew": 2,
+            "build_slots": 2,
+            "special_rules": "Full Throttle, Pivot",
+            "cost": 8
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 5,
+            "vehicle_type": "Ice-cream Truck",
+            "weight": "Middleweight",
+            "hull": 10,
+            "handling": 2,
+            "max_gear": 4,
+            "crew": 2,
+            "build_slots": 2,
+            "special_rules": "Infuriating Jingle",
+            "cost": 8
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 6,
+            "vehicle_type": "Car",
+            "weight": "Middleweight",
+            "hull": 10,
+            "handling": 3,
+            "max_gear": 5,
+            "crew": 2,
+            "build_slots": 2,
+            "special_rules": "",
+            "cost": 12
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 7,
+            "vehicle_type": "Performance Car",
+            "weight": "Middleweight",
+            "hull": 8,
+            "handling": 4,
+            "max_gear": 6,
+            "crew": 1,
+            "build_slots": 2,
+            "special_rules": "Slip away.",
+            "cost": 15
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 9,
+            "vehicle_type": "Truck",
+            "weight": "Middleweight",
+            "hull": 12,
+            "handling": 2,
+            "max_gear": 4,
+            "crew": 3,
+            "build_slots": 3,
+            "special_rules": "",
+            "cost": 15
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 10,
+            "vehicle_type": "Gyrocopter",
+            "weight": "4",
+            "hull": 4,
+            "handling": 4,
+            "max_gear": 6,
+            "crew": 1,
+            "build_slots": 0,
+            "special_rules": "Airwolf, Airborne",
+            "cost": 10
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 11,
+            "vehicle_type": "Ambulance",
+            "weight": "Middleweight",
+            "hull": 12,
+            "handling": 2,
+            "max_gear": 5,
+            "crew": 3,
+            "build_slots": 3,
+            "special_rules": "Uppers, Downers",
+            "cost": 20
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 12,
+            "vehicle_type": "Monster Truck",
+            "weight": "Heavyweight",
+            "hull": 10,
+            "handling": 3,
+            "max_gear": 4,
+            "crew": 2,
+            "build_slots": 2,
+            "special_rules": "All Terrain, Up and Over",
+            "cost": 25
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 13,
+            "vehicle_type": "Heavy Truck",
+            "weight": "Heavyweight",
+            "hull": 14,
+            "handling": 2,
+            "max_gear": 3,
+            "crew": 4,
+            "build_slots": 5,
+            "special_rules": "",
+            "cost": 25
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 14,
+            "vehicle_type": "Bus",
+            "weight": "Heavyweight",
+            "hull": 16,
+            "handling": 2,
+            "max_gear": 3,
+            "crew": 8,
+            "build_slots": 3,
+            "special_rules": "",
+            "cost": 30
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 15,
+            "vehicle_type": "Helicopter",
+            "weight": "Heavyweight",
+            "hull": 8,
+            "handling": 3,
+            "max_gear": 4,
+            "crew": 3,
+            "build_slots": 4,
+            "special_rules": "Airwolf, Arirborne, Restricted",
+            "cost": 30
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 16,
+            "vehicle_type": "Tank",
+            "weight": "Heavyweight",
+            "hull": 20,
+            "handling": 4,
+            "max_gear": 3,
+            "crew": 3,
+            "build_slots": 4,
+            "special_rules": "Pivot, Up and Over, All Terrain, Turret, Restricted",
+            "cost": 40
+        }
+    },
+    {
+        "model": "Vehicle",
+        "data": {
+            "id": 17,
+            "vehicle_type": "War Rig",
+            "weight": "26",
+            "hull": 26,
+            "handling": 2,
+            "max_gear": 4,
+            "crew": 5,
+            "build_slots": 5,
+            "special_rules": "See War Rig Rules",
+            "cost": 40
+        }
+    }
+]

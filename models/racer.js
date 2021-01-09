@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
-    const Racer = sequelize.define("Racer", {
-        name: {
+    var Racer = sequelize.define("Racer", {
+        racer_name: {
             type: DataTypes.STRING,
             allowNull: false
         },
