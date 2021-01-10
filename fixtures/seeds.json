@@ -1,5 +1,58 @@
 [
     {
+        "model": "Racer",
+        "data": {
+            "id": 1,
+            "racer_name": "Crasher",
+            "img": "https://www.drivespark.com/img/2013/05/21-1369125761-interceptor.jpg",
+            "class": "Car",
+            "weight": "Middleweight",
+            "hull": 10,
+            "weapons": "",
+            "special_rules": "",
+            "gear": 5,
+            "handling": 3,
+            "crew": 2,
+            "cans": 10
+        }
+    },
+    {
+        "model": "Racer",
+        "data": {
+            "id": 2,
+            "racer_name": "Slasher",
+            "img": "https://images.cardekho.com/images/carNewsimages/carnews/Automobiles/Mad-Max-Fury-Road-Car-Guide_2015_10.jpg",
+            "class": "Buggy",
+            "weight": "Lightweight",
+            "hull": 6,
+            "weapons": "Rocket Launcher",
+            "special_rules": "Roll Cage",
+            "gear": 6,
+            "handling": 4,
+            "crew": 2,
+            "cans": 12
+        }
+    },
+    {
+        "model": "Racer",
+        "data": {
+            "id": 3,
+            "racer_name": "Basher",
+            "img": "https://vignette2.wikia.nocookie.net/roadwarrior/images/0/00/Tyre_doctor.jpg/revision/latest?cb=20150830174740",
+            "class": "Truck",
+            "weight": "Middleweight",
+            "hull": 12,
+            "weapons": "Machine Gun",
+            "special_rules": "",
+            "gear": 4,
+            "handling": 2,
+            "crew": 3,
+            "cans": 12
+        }
+    },
+
+
+    {
         "model": "Vehicle",
         "data": {
             "id": 1,
