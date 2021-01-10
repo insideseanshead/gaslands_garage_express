@@ -6,6 +6,7 @@ const db = require('../models')
 router.get('/', (req,res) =>
     db.Racer.findAll()
         .then(racers => {
+            console.log(racers)
             res.render('racers', {
                 racers
             })
