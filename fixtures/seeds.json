@@ -238,5 +238,115 @@
             "special_rules": "See War Rig Rules",
             "cost": 40
         }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 1,
+            "upgrade": "Armor Plating",
+            "special_rules": "+2 Hull",
+            "build_slots": 1,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 2,
+            "upgrade": "Experimental Nuclear Engine",
+            "special_rules": "Electrical, See special rules.",
+            "build_slots": null,
+            "cost": 5
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 3,
+            "upgrade": "Experimental Teleporter",
+            "special_rules": "Electrical, See special rules.",
+            "build_slots": null,
+            "cost": 7
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 4,
+            "upgrade": "Exploding Ram",
+            "special_rules": "Ammo 1, See special rules.",
+            "build_slots": null,
+            "cost": 3
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 5,
+            "upgrade": "Extra Crewmember",
+            "special_rules": "+1 Crew, up to a maximum of twice the vehicle's starting Crew value.",
+            "build_slots": null,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 6,
+            "upgrade": "Improvised Sludge Thrower",
+            "special_rules": "See special rules.",
+            "build_slots": 1,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 7,
+            "upgrade": "Nitro Booster",
+            "special_rules": "Ammo 1, See special rules.",
+            "build_slots": null,
+            "cost": 6
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 8,
+            "upgrade": "Ram",
+            "special_rules": "See special rules.",
+            "build_slots": 1,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 9,
+            "upgrade": "Roll Cage",
+            "special_rules": "See special rules.",
+            "build_slots": 1,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 10,
+            "upgrade": "Tank Tracks",
+            "special_rules": "-1 Max Gear, +1 Handling. See Special rules.",
+            "build_slots": 1,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Upgrade",
+        "data": {
+            "id": 11,
+            "upgrade": "Turret Mounting for Weapon",
+            "special_rules": "Weapon gains 360-degree arc of fire",
+            "build_slots": null,
+            "cost": null
+        }
     }
 ]
