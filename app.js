@@ -5,12 +5,15 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const db = require("./models")
 const { Sequelize } = require('Sequelize');
+var Handlebars = require('handlebars')
+var {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access')
+
 
 // Database
 const dataBase = require('./config/database')
 
 // Handlebars
-app.engine('handlebars', exphbs({ defaultLayout: "main" }));
+app.engine('handlebars', exphbs({ defaultLayout: "main", handlebars: allowInsecurePrototypeAccess(Handlebars)}));
 app.set('view engine', 'handlebars');
 
 // Set static folder
