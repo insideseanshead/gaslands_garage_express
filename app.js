@@ -4,18 +4,26 @@ const app = express();
 const bodyParser = require("body-parser");
 const path = require("path");
 const db = require("./models")
-const { Sequelize } = require('sequelize');
+const { Sequelize } = require('Sequelize');
 
 // Database
 const dataBase = require('./config/database')
 
+// Handlebars
+app.engine('handlebars', exphbs({ defaultLayout: "main" }));
+app.set('view engine', 'handlebars');
+
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')))
+
 // Index Route
-app.get('/', (req,res) => res.send('INDEX'))
+app.get('/', (req,res) => res.send('Test'))
 
 // Garage Routes
-
+app.use('/garage', require('./routes/garage'))
 
 const PORT = process.env.PORT || 3000;
+
 
 // Sync sequlize models and start app
 db.sequelize.sync({ force: false }).then(function() {

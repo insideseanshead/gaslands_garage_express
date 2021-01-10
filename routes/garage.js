@@ -1,11 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../config/database')
-const Racer = require('../models/racer')
+const db = require('../models')
 
 // Get Racer List
 router.get('/', (req,res) =>
-    Racer.findAll()
+    db.Racer.findAll()
         .then(racers => {
             res.render('racers', {
                 racers

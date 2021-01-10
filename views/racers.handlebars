@@ -1,0 +1,33 @@
+<div class="car_cards">
+
+    {{#each racers}}
+        <div class="card car bg-warning border-white" style="width: 24rem">
+        <img src="/images/car_1.jpg" class="card-img-top" alt="Car 1" />
+        <div class="card-body">
+            <h5 class="card-title car_name">{{racer_name}}</h5>
+            {{!-- <h6 class="card-title team">Slime</h6> --}}
+            <p class="car_type">Type: <strong>{{class}}</strong></p>
+            <p class="car_weight">Weight: <strong>{{weight}}</strong></p>
+            <p class="car_hull">
+                Max Hull: <strong>{{hull}}</strong> Damage: <strong>0</strong>
+            </p>
+            <p class="car_hull">
+                Max Gear: <strong>{{gear}}</strong> Current: <strong>1</strong>
+            </p>
+        </div>
+        <ul class="list-group list-group-flush special">
+            <li class="list-group-item bg-transparent">{{weapons}}</li>
+            <li class="list-group-item bg-transparent">{{special_rules}}</li>
+        </ul>
+        <div class="card-body">
+            <p>
+                Handling: <strong>{{handling}}</strong> | Crew: <strong>{{crew}}</strong> | Cans:
+                <strong></strong>
+            </p>
+        </div>
+    </div>
+    {{else}}
+        <p> Garage Empty</p>
+    {{/each}}
+
+</div>
