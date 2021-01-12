@@ -857,5 +857,96 @@
             "build_slots": 3,
             "cost": 2
         }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 1,
+            "sponsor": "Rutheford"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 2,
+            "sponsor": "Miyazaki"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 3,
+            "sponsor": "Mishkin"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 4,
+            "sponsor": "Idris"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 5,
+            "sponsor": "Slime"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 6,
+            "sponsor": "The Warden"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 7,
+            "sponsor": "Scarlett"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 8,
+            "sponsor": "Highway Patrol"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 9,
+            "sponsor": "Verney"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 10,
+            "sponsor": "Maxine"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 11,
+            "sponsor": "The Order of the Inferno"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 12,
+            "sponsor": "Beverly, The Devil on the Highway"
+        }
+    },
+    {
+        "model": "Sponsor",
+        "data": {
+            "id": 13,
+            "sponsor": "Rusty's Bootleggers"
+        }
     }
 ]
