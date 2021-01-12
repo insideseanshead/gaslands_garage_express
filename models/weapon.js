@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
     const Weapon = sequelize.define("Weapon", {
-        Weapon_name: {
+        weapon_name: {
             type: DataTypes.STRING,
             allowNull: false
         },

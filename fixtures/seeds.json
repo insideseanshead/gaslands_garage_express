@@ -397,9 +397,465 @@
         "data": {
             "id": 11,
             "upgrade": "Turret Mounting for Weapon",
-            "special_rules": "Weapon gains 360-degree arc of fire",
+            "special_rules": "Weapon gains 360-degree arc of fire.",
             "build_slots": null,
             "cost": null
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 1,
+            "weapon_name": "125mm Cannon",
+            "range": "Double",
+            "attack_die": "8D6",
+            "special_rules": "Ammo3, Blast, See special rules.",
+            "build_slots": 3,
+            "cost": 6
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 2,
+            "weapon_name": "Arc Lightning Projector",
+            "range": "Double",
+            "attack_die": "6D6",
+            "special_rules": "Ammo 1, Electrical, See special rules.",
+            "build_slots": 2,
+            "cost": 6
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 3,
+            "weapon_name": "Bazooka",
+            "range": "Double",
+            "attack_die": "6D6",
+            "special_rules": "Ammo 3, Blast.",
+            "build_slots": 2,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 4,
+            "weapon_name": "BFG",
+            "range": "Double",
+            "attack_die": "10D6",
+            "special_rules": "Ammo 1, See special rules.",
+            "build_slots": 3,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 5,
+            "weapon_name": "Blunderbuss",
+            "range": "Small burst",
+            "attack_die": "2D6",
+            "special_rules": "Crew Fired, Splash.",
+            "build_slots": null,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 7,
+            "weapon_name": "Caltrop Dropper",
+            "range": "Dropped",
+            "attack_die": "2D6",
+            "special_rules": "Ammo 3, Small Burst, See special rules.",
+            "build_slots": 1,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 8,
+            "weapon_name": "Combat Laser",
+            "range": "Double",
+            "attack_die": "3D6",
+            "special_rules": "Splash, See special rules.",
+            "build_slots": null,
+            "cost": null
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 9,
+            "weapon_name": "Death Ray",
+            "range": "Double",
+            "attack_die": "3D6",
+            "special_rules": "Ammo 1, Electrical, See special rules.",
+            "build_slots": null,
+            "cost": null
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 10,
+            "weapon_name": "Flamethrower",
+            "range": "Large Burst",
+            "attack_die": "6D6",
+            "special_rules": "Ammo 3, Splash, Fire, Indirect.",
+            "build_slots": 2,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 11,
+            "weapon_name": "Gas Grenades",
+            "range": "Medium",
+            "attack_die": "1D6",
+            "special_rules": "Ammo 5, Crew Fired, Indirectm Blitz, See special rules.",
+            "build_slots": null,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 12,
+            "weapon_name": "Glue Dropper",
+            "range": "Dropped",
+            "attack_die": "N/A",
+            "special_rules": "Ammo 1. See special rules.",
+            "build_slots": 1,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 13,
+            "weapon_name": "Grabber Arm",
+            "range": "Short",
+            "attack_die": "3D6",
+            "special_rules": "See special rules.",
+            "build_slots": 1,
+            "cost": 6
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 14,
+            "weapon_name": "Grav Gun",
+            "range": "Double",
+            "attack_die": "3D6",
+            "special_rules": "Ammo 1, Electrical, See special rules.",
+            "build_slots": 1,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 15,
+            "weapon_name": "Grenades",
+            "range": "Medium",
+            "attack_die": "1D6",
+            "special_rules": "Ammo 5, Crew fired, Blast, Indirect, Blitz.",
+            "build_slots": null,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 16,
+            "weapon_name": "Handgun",
+            "range": "Medium",
+            "attack_die": "1D6",
+            "special_rules": "Crew fired.",
+            "build_slots": null,
+            "cost": null
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 17,
+            "weapon_name": "Harpoon",
+            "range": "Double",
+            "attack_die": "5D6",
+            "special_rules": "See special rules.",
+            "build_slots": 1,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 18,
+            "weapon_name": "Heavy Machine Gun",
+            "range": "Double",
+            "attack_die": "3D6",
+            "special_rules": "",
+            "build_slots": 1,
+            "cost": 3
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 19,
+            "weapon_name": "Kinetic Super Booster",
+            "range": "Double",
+            "attack_die": "6D6",
+            "special_rules": "Ammo 1, Electrical, See special rules.",
+            "build_slots": 2,
+            "cost": 6
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 20,
+            "weapon_name": "Machine Gun",
+            "range": "Double",
+            "attack_die": "2D6",
+            "special_rules": "",
+            "build_slots": 1,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 21,
+            "weapon_name": "Magnetic Jammer",
+            "range": "Double",
+            "attack_die": "",
+            "special_rules": "Electrical, See special rules.",
+            "build_slots": null,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 22,
+            "weapon_name": "Magnum",
+            "range": "Double",
+            "attack_die": "1D6",
+            "special_rules": "Crew fired, Blast.",
+            "build_slots": null,
+            "cost": 3
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 23,
+            "weapon_name": "Mine Dropper",
+            "range": "Dropped",
+            "attack_die": "4D6",
+            "special_rules": "Ammo 3 Small Burst, See special rules.",
+            "build_slots": 1,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 24,
+            "weapon_name": "Minigun",
+            "range": "Double",
+            "attack_die": "4D6",
+            "special_rules": "",
+            "build_slots": 1,
+            "cost": 5
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 25,
+            "weapon_name": "Molotov Coctails",
+            "range": "Medium",
+            "attack_die": "1D6",
+            "special_rules": "Ammo 5, Crew Fired, Fire, Indirect, Blitz.",
+            "build_slots": null,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 26,
+            "weapon_name": "Mortar",
+            "range": "Double",
+            "attack_die": "4D6",
+            "special_rules": "Ammo 3, Indirect.",
+            "build_slots": 1,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 27,
+            "weapon_name": "Napalm Dropper",
+            "range": "Dropped",
+            "attack_die": "4D6",
+            "special_rules": "Ammo 3, Small Burst, Fire, See special rules.",
+            "build_slots": 1,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 28,
+            "weapon_name": "Oil Slick Dropper",
+            "range": "Dropped",
+            "attack_die": "",
+            "special_rules": "Ammo 3 See special rules.",
+            "build_slots": null,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 29,
+            "weapon_name": "RC Car Bombs",
+            "range": "Dropped",
+            "attack_die": "4D6",
+            "special_rules": "Ammo 3, See special rules.",
+            "build_slots": null,
+            "cost": 3
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 30,
+            "weapon_name": "Rockets",
+            "range": "Double",
+            "attack_die": "6D6",
+            "special_rules": "Ammo 3.",
+            "build_slots": 2,
+            "cost": 5
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 30,
+            "weapon_name": "Sentry Gun",
+            "range": "Dropped",
+            "attack_die": "2D6",
+            "special_rules": "Ammo 3. See special rules.",
+            "build_slots": null,
+            "cost": 3
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 31,
+            "weapon_name": "Shotgun",
+            "range": "Long",
+            "attack_die": "*",
+            "special_rules": "Ammo 3, See special rules.",
+            "build_slots": null,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 32,
+            "weapon_name": "Smoke Dropper",
+            "range": "Dropped",
+            "attack_die": "",
+            "special_rules": "Ammo 3, See special rules.",
+            "build_slots": null,
+            "cost": 1
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 33,
+            "weapon_name": "Steel Nets",
+            "range": "Short",
+            "attack_die": "3D6",
+            "special_rules": "Crew fired.",
+            "build_slots": null,
+            "cost": 2
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 34,
+            "weapon_name": "Submachine Gun",
+            "range": "Medium",
+            "attack_die": "3D6",
+            "special_rules": "Crew Fired.",
+            "build_slots": null,
+            "cost": 5
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 35,
+            "weapon_name": "Thumper",
+            "range": "Medium",
+            "attack_die": "",
+            "special_rules": "Ammo 1, Electrical, Indirect, 360-degree, See special rules.",
+            "build_slots": 2,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 36,
+            "weapon_name": "Wall of Amplifiers",
+            "range": "Medium",
+            "attack_die": "",
+            "special_rules": "360-degree Arc of Fire, See special rules.",
+            "build_slots": 3,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 37,
+            "weapon_name": "Wreck Lobber",
+            "range": "Double/Dropped",
+            "attack_die": "",
+            "special_rules": "Ammo 3, See special rules.",
+            "build_slots": 4,
+            "cost": 4
+        }
+    },
+    {
+        "model": "Weapon",
+        "data": {
+            "id": 38,
+            "weapon_name": "Wrecking Ball",
+            "range": "Short",
+            "attack_die": "*",
+            "special_rules": "See speacial rules.",
+            "build_slots": 3,
+            "cost": 2
         }
     }
 ]
