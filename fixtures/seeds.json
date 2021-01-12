@@ -753,7 +753,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 30,
+            "id": 31,
             "weapon_name": "Sentry Gun",
             "range": "Dropped",
             "attack_die": "2D6",
@@ -765,7 +765,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 31,
+            "id": 32,
             "weapon_name": "Shotgun",
             "range": "Long",
             "attack_die": "*",
@@ -777,7 +777,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 32,
+            "id": 33,
             "weapon_name": "Smoke Dropper",
             "range": "Dropped",
             "attack_die": "",
@@ -789,7 +789,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 33,
+            "id": 34,
             "weapon_name": "Steel Nets",
             "range": "Short",
             "attack_die": "3D6",
@@ -801,7 +801,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 34,
+            "id": 35,
             "weapon_name": "Submachine Gun",
             "range": "Medium",
             "attack_die": "3D6",
@@ -813,7 +813,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 35,
+            "id": 36,
             "weapon_name": "Thumper",
             "range": "Medium",
             "attack_die": "",
@@ -825,7 +825,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 36,
+            "id": 37,
             "weapon_name": "Wall of Amplifiers",
             "range": "Medium",
             "attack_die": "",
@@ -837,7 +837,7 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 37,
+            "id": 38,
             "weapon_name": "Wreck Lobber",
             "range": "Double/Dropped",
             "attack_die": "",
@@ -849,10 +849,10 @@
     {
         "model": "Weapon",
         "data": {
-            "id": 38,
+            "id": 39,
             "weapon_name": "Wrecking Ball",
             "range": "Short",
-            "attack_die": "*",
+            "attack_die": "",
             "special_rules": "See speacial rules.",
             "build_slots": 3,
             "cost": 2
