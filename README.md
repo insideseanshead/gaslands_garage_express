@@ -6,7 +6,7 @@
     
 This is an express application used to build and modify teams for the table top racing game Gas Lands.
 
-![Screenshot](./assets/screen_shot.png)
+![Screenshot](./assets/screen_shot.PNG)
 
 ## Table of Contents
 1. [Installation](#installation)
